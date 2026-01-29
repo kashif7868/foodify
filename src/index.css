@@ -1,0 +1,63 @@
+/* ===== CSS RESET ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== ROOT THEME ===== */
+:root {
+  --primary: #ff7a18;
+  --primary-light: #ff9f45;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --border: #e5e7eb;
+  --bg-light: #f9fafb;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== GLOBAL LINKS ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== BUTTON RESET ===== */
+button {
+  font-family: inherit;
+  outline: none;
+}
+
+/* ===== IMAGES ===== */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ===== SCROLLBAR (Smooth & Clean) ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
