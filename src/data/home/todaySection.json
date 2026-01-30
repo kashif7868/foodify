@@ -1,0 +1,123 @@
+{
+  "title": "Today's Specials",
+  "subtitle": "Exclusive deals available only today!",
+  "specials": [
+    {
+      "id": 1,
+      "name": "Family Biryani Combo",
+      "description": "Chicken biryani with raita, salad, and 4 pieces of chicken",
+      "originalPrice": 2200,
+      "discountedPrice": 1600,
+      "discount": "27% OFF",
+      "availableUntil": "23:00",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d9d6?auto=format&fit=crop&w-600",
+      "tags": ["🔥 Spicy", "👨‍👩‍👧‍👦 Family Pack", "⏰ Limited Time"],
+      "restaurant": "Biryani Point",
+      "rating": 4.8,
+      "ordersLeft": 12
+    },
+    {
+      "id": 2,
+      "name": "Mega Pizza Deal",
+      "description": "Large pizza with extra cheese and 4 garlic bread sticks",
+      "originalPrice": 1800,
+      "discountedPrice": 1200,
+      "discount": "33% OFF",
+      "availableUntil": "22:30",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600",
+      "tags": ["🧀 Extra Cheese", "🍕 2-in-1 Deal", "🎉 Party Pack"],
+      "restaurant": "Pizza Hut",
+      "rating": 4.6,
+      "ordersLeft": 8
+    },
+    {
+      "id": 3,
+      "name": "Burger Feast",
+      "description": "Double cheese burger with fries and coke",
+      "originalPrice": 950,
+      "discountedPrice": 650,
+      "discount": "32% OFF",
+      "availableUntil": "21:00",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600",
+      "tags": ["🍔 Double Patty", "🥤 Free Drink", "⚡ Fast Deal"],
+      "restaurant": "Burger Lab",
+      "rating": 4.7,
+      "ordersLeft": 5
+    },
+    {
+      "id": 4,
+      "name": "Chinese Combo",
+      "description": "Chow mein, spring rolls, and manchurian combo",
+      "originalPrice": 1400,
+      "discountedPrice": 950,
+      "discount": "32% OFF",
+      "availableUntil": "23:30",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600",
+      "tags": ["🍜 3-in-1 Combo", "🥢 Authentic", "🔥 Best Seller"],
+      "restaurant": "Dragon Chinese",
+      "rating": 4.4,
+      "ordersLeft": 15
+    },
+    {
+      "id": 5,
+      "name": "Desi Karahi Set",
+      "description": "Chicken karahi with naan, raita, and salad",
+      "originalPrice": 1600,
+      "discountedPrice": 1100,
+      "discount": "31% OFF",
+      "availableUntil": "22:00",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600",
+      "tags": ["🍛 Traditional", "🔥 Mild Spice", "🏆 Top Rated"],
+      "restaurant": "Karahi Guys",
+      "rating": 4.9,
+      "ordersLeft": 3
+    },
+    {
+      "id": 6,
+      "name": "Dessert Platter",
+      "description": "Assorted dessert platter with 6 different sweets",
+      "originalPrice": 1200,
+      "discountedPrice": 800,
+      "discount": "33% OFF",
+      "availableUntil": "00:00",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600",
+      "tags": ["🍰 Sweet Treat", "🎂 Assorted", "🍫 Chocolate"],
+      "restaurant": "Cafe Coffee Day",
+      "rating": 4.5,
+      "ordersLeft": 20
+    },
+    {
+      "id": 7,
+      "name": "Steak Dinner",
+      "description": "Premium steak with mashed potatoes and vegetables",
+      "originalPrice": 2800,
+      "discountedPrice": 1900,
+      "discount": "32% OFF",
+      "availableUntil": "21:30",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600",
+      "tags": ["🥩 Premium", "👨‍🍳 Chef Special", "🎯 Exclusive"],
+      "restaurant": "Steak House",
+      "rating": 4.8,
+      "ordersLeft": 2
+    },
+    {
+      "id": 8,
+      "name": "Healthy Bowl",
+      "description": "Fresh salad bowl with avocado, quinoa, and grilled chicken",
+      "originalPrice": 900,
+      "discountedPrice": 600,
+      "discount": "33% OFF",
+      "availableUntil": "20:00",
+      "image": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=600",
+      "tags": ["🥗 Healthy", "🍃 Fresh", "⚡ Low Calorie"],
+      "restaurant": "Healthy Bites",
+      "rating": 4.3,
+      "ordersLeft": 18
+    }
+  ],
+  "countdown": {
+    "title": "Hurry! Limited Time Offer",
+    "endTime": "23:59",
+    "message": "Deals refresh daily at midnight"
+  }
+}
