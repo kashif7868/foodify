@@ -1,0 +1,112 @@
+{
+  "title": "My Favorites",
+  "subtitle": "All your loved food items in one place",
+  "favorites": [
+    {
+      "id": 1,
+      "name": "Chicken Biryani",
+      "restaurant": "Biryani Point",
+      "rating": 4.7,
+      "deliveryTime": "25-30 min",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d9d6?auto=format&fit=crop&w=400",
+      "tags": ["🔥 Spicy", "🏆 Top Rated", "🚚 Free Delivery"],
+      "cuisine": "Desi • Mughlai",
+      "addedDate": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Cheese Pizza",
+      "restaurant": "Pizza Hut",
+      "rating": 4.5,
+      "deliveryTime": "20-25 min",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=400",
+      "tags": ["🧀 Extra Cheese", "🍕 Italian", "👨‍🍳 Chef Special"],
+      "cuisine": "Italian • Fast Food",
+      "addedDate": "2024-01-14"
+    },
+    {
+      "id": 3,
+      "name": "Beef Burger",
+      "restaurant": "Burger Lab",
+      "rating": 4.8,
+      "deliveryTime": "15-20 min",
+      "price": 650,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400",
+      "tags": ["🍔 Double Patty", "🔥 Best Seller", "⚡ Fast"],
+      "cuisine": "American • Fast Food",
+      "addedDate": "2024-01-13"
+    },
+    {
+      "id": 4,
+      "name": "Chow Mein",
+      "restaurant": "Dragon Chinese",
+      "rating": 4.3,
+      "deliveryTime": "30-35 min",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=400",
+      "tags": ["🍜 Chinese", "🥢 Authentic", "🔥 Spicy"],
+      "cuisine": "Chinese • Asian",
+      "addedDate": "2024-01-12"
+    },
+    {
+      "id": 5,
+      "name": "Butter Chicken",
+      "restaurant": "Karahi Guys",
+      "rating": 4.6,
+      "deliveryTime": "25-30 min",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=400",
+      "tags": ["🍛 Desi", "🔥 Mild", "🏆 Top Rated"],
+      "cuisine": "Pakistani • BBQ",
+      "addedDate": "2024-01-11"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Shake",
+      "restaurant": "Cafe Coffee Day",
+      "rating": 4.4,
+      "deliveryTime": "15-20 min",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=400",
+      "tags": ["🍫 Chocolate", "🥤 Cold", "🚚 Free Delivery"],
+      "cuisine": "Cafe • Beverages",
+      "addedDate": "2024-01-10"
+    },
+    {
+      "id": 7,
+      "name": "Grilled Steak",
+      "restaurant": "Steak House",
+      "rating": 4.9,
+      "deliveryTime": "35-40 min",
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400",
+      "tags": ["🥩 Premium", "🔥 BBQ", "👨‍🍳 Chef Special"],
+      "cuisine": "Continental • Grill",
+      "addedDate": "2024-01-09"
+    },
+    {
+      "id": 8,
+      "name": "Fruit Salad",
+      "restaurant": "Healthy Bites",
+      "rating": 4.2,
+      "deliveryTime": "10-15 min",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=400",
+      "tags": ["🥗 Healthy", "🍓 Fresh", "⚡ Fast"],
+      "cuisine": "Healthy • Vegan",
+      "addedDate": "2024-01-08"
+    }
+  ],
+  "categories": [
+    "All",
+    "🍕 Italian",
+    "🍔 Fast Food",
+    "🍛 Desi",
+    "🍜 Chinese",
+    "🥗 Healthy",
+    "🥩 Premium",
+    "🥤 Drinks"
+  ]
+}

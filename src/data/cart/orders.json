@@ -1,0 +1,145 @@
+{
+  "title": "My Orders",
+  "subtitle": "Track and manage all your food orders",
+  "orders": [
+    {
+      "id": "ORD-2024-001",
+      "restaurant": "Biryani Point",
+      "status": "delivered",
+      "statusText": "Delivered",
+      "date": "2024-01-15",
+      "time": "19:30",
+      "items": [
+        { "name": "Chicken Biryani", "quantity": 2, "price": 850 },
+        { "name": "Raita", "quantity": 1, "price": 100 },
+        { "name": "Salad", "quantity": 1, "price": 80 }
+      ],
+      "totalAmount": 1880,
+      "deliveryAddress": "123 Main Street, Gulberg, Lahore",
+      "riderName": "Ali Ahmed",
+      "riderPhone": "+92 300 123 4567",
+      "paymentMethod": "Cash on Delivery",
+      "estimatedDelivery": "25-30 min",
+      "actualDelivery": "28 min",
+      "rating": 4,
+      "canReorder": true
+    },
+    {
+      "id": "ORD-2024-002",
+      "restaurant": "Pizza Hut",
+      "status": "preparing",
+      "statusText": "Preparing Your Order",
+      "date": "2024-01-15",
+      "time": "18:45",
+      "items": [
+        { "name": "Cheese Pizza (Large)", "quantity": 1, "price": 1200 },
+        { "name": "Garlic Bread", "quantity": 1, "price": 250 },
+        { "name": "Coca Cola (1.5L)", "quantity": 1, "price": 150 }
+      ],
+      "totalAmount": 1600,
+      "deliveryAddress": "456 Defense Road, Lahore",
+      "riderName": "Usman Khan",
+      "riderPhone": "+92 300 765 4321",
+      "paymentMethod": "Credit Card",
+      "estimatedDelivery": "20-25 min",
+      "actualDelivery": null,
+      "rating": null,
+      "canReorder": false
+    },
+    {
+      "id": "ORD-2024-003",
+      "restaurant": "Burger Lab",
+      "status": "on_the_way",
+      "statusText": "On The Way",
+      "date": "2024-01-15",
+      "time": "17:20",
+      "items": [
+        { "name": "Beef Burger", "quantity": 3, "price": 650 },
+        { "name": "French Fries", "quantity": 2, "price": 200 },
+        { "name": "Chocolate Shake", "quantity": 2, "price": 350 }
+      ],
+      "totalAmount": 2850,
+      "deliveryAddress": "789 Johar Town, Lahore",
+      "riderName": "Bilal Shah",
+      "riderPhone": "+92 300 987 6543",
+      "paymentMethod": "JazzCash",
+      "estimatedDelivery": "15-20 min",
+      "actualDelivery": null,
+      "rating": null,
+      "canReorder": false
+    },
+    {
+      "id": "ORD-2024-004",
+      "restaurant": "Dragon Chinese",
+      "status": "cancelled",
+      "statusText": "Cancelled",
+      "date": "2024-01-14",
+      "time": "20:15",
+      "items": [
+        { "name": "Chow Mein", "quantity": 2, "price": 550 },
+        { "name": "Spring Rolls", "quantity": 1, "price": 300 },
+        { "name": "Manchurian", "quantity": 1, "price": 450 }
+      ],
+      "totalAmount": 1850,
+      "deliveryAddress": "321 Model Town, Lahore",
+      "riderName": null,
+      "riderPhone": null,
+      "paymentMethod": "EasyPaisa",
+      "estimatedDelivery": "30-35 min",
+      "actualDelivery": null,
+      "rating": null,
+      "canReorder": true
+    },
+    {
+      "id": "ORD-2024-005",
+      "restaurant": "Karahi Guys",
+      "status": "delivered",
+      "statusText": "Delivered",
+      "date": "2024-01-13",
+      "time": "21:00",
+      "items": [
+        { "name": "Butter Chicken", "quantity": 1, "price": 950 },
+        { "name": "Naan", "quantity": 4, "price": 80 },
+        { "name": "Raita", "quantity": 2, "price": 100 }
+      ],
+      "totalAmount": 1510,
+      "deliveryAddress": "654 Faisal Town, Lahore",
+      "riderName": "Kamran Ali",
+      "riderPhone": "+92 300 555 1212",
+      "paymentMethod": "Cash on Delivery",
+      "estimatedDelivery": "25-30 min",
+      "actualDelivery": "27 min",
+      "rating": 5,
+      "canReorder": true
+    },
+    {
+      "id": "ORD-2024-006",
+      "restaurant": "Cafe Coffee Day",
+      "status": "delivered",
+      "statusText": "Delivered",
+      "date": "2024-01-12",
+      "time": "15:30",
+      "items": [
+        { "name": "Chocolate Shake", "quantity": 2, "price": 350 },
+        { "name": "Cappuccino", "quantity": 1, "price": 250 },
+        { "name": "Brownie", "quantity": 2, "price": 200 }
+      ],
+      "totalAmount": 1200,
+      "deliveryAddress": "987 Garden Town, Lahore",
+      "riderName": "Sami Ullah",
+      "riderPhone": "+92 300 222 3333",
+      "paymentMethod": "Credit Card",
+      "estimatedDelivery": "15-20 min",
+      "actualDelivery": "18 min",
+      "rating": 4,
+      "canReorder": true
+    }
+  ],
+  "filters": ["All", "Pending", "Preparing", "On The Way", "Delivered", "Cancelled"],
+  "stats": {
+    "totalOrders": 25,
+    "totalSpent": 45250,
+    "currentMonthOrders": 6,
+    "favoriteRestaurant": "Biryani Point"
+  }
+}
