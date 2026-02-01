@@ -1,6 +1,6 @@
 import Navbar from "./components/layouts/Navbar";
 import Footer from "./components/layouts/Footer";
-import Home from "./pages/Home/Home";
+import Pages from "./components/layouts/Pages";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <main className="page-content">
-        <Home />
+        <Pages />
       </main>
       <Footer />
     </>
